@@ -1,33 +1,98 @@
-.App {
-  text-align: center;
+/* ********************************************************** */
+/* Import google fonts */
+
+
+
+/* ********************************************************** */
+
+/* ********************************************************** */
+/* declaration of global variables starts */
+
+:root {
+  --pos-value: 0;
+
+  /* font-colors and background colors */
+  --dark-bg-color: #444A5A;
+  --footer-dark-bg-color: #343434;
+  --main-font-color: #FFFFFF;
+  --sec-font-color: #4A4A4A;
+
+  /* font-size */
+  /* --lg-head-font-size: 2.5em;
+  --lg-font-size: 2.6rem;
+  --md-font-size: 1.5rem;
+  --sm-font-size: 1.1rem; */
+
+  /* font-family */
+  /* --heading-font-family: "Raleway", sans-serif;
+  --main-font-family: "Montserrat", sans-serif;
+  --sec-font-family: "Roboto Mono", monospace; */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* declaration of global variables ends */
+/* ********************************************************** */
+
+/* ********************************************************** */
+/* root css styling starts */
+
+
+
+/* root css styling ends */
+/* ********************************************************** */
+
+
+a, p, span {
+  color: var(--main-font-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+  color: var(--main-font-color);
 }
 
-.App-link {
-  color: #61dafb;
+/* ********************************************************** */
+/* Main styling starts */
+
+
+/* Main styling ends */
+/* ********************************************************** */
+
+/* ************************************************************************* */
+
+/* ********************************************************** */
+/* Responsive view styling starts */
+
+/***###*** MEDIA QUERIES ***###***/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
 }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Large Mobile devices only **********/
+@media (max-width: 450px) {
+
+}
+
+/********** Medium Mobile devices only **********/
+@media (max-width: 380px) {
+}
+
+/********** small Mobile devices only (eg: Iphone 4, ) **********/
+@media (max-width: 330px) {
+}
+
+/* Responsive view styling ends */
+/* ********************************************************** */

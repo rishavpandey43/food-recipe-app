@@ -1,0 +1,27 @@
+.sec-1 {
+  /* background: linear-gradient(270deg, #27AE60 0.73%, rgba(242, 242, 242, 0) 100%); */
+}
+
+
+.sec-1 .sec-content p {
+  font-size: var(--md-font-size);
+}
+
+.explore-btn {
+  width: 300px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.explore-btn i {
+  color: var(--main-theme-color);
+}
+
+.explore-btn .btn {
+  padding: 10px 30px;
+  font-size: var(--md-font-size);
+  font-family: var(--main-font-family);
+  color: var(--main-theme-color);
+  border: 2px solid var(--main-theme-color);
+  border-radius: 30px;
+}

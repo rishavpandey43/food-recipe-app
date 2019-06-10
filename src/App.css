@@ -1,7 +1,7 @@
 /* ********************************************************** */
 /* Import google fonts */
 
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap");
 
 /* ********************************************************** */
 
@@ -12,21 +12,22 @@
   --pos-value: 0;
 
   /* font-colors and background colors */
-  --dark-bg-color: #444A5A;
+  --dark-bg-color: #444a5a;
   --footer-dark-bg-color: #343434;
-  --main-font-color: #FFFFFF;
-  --sec-font-color: #4A4A4A;
+  --light-bg-color: #f2f2f2;
+  --main-font-color: #ffffff;
+  --sec-font-color: #4a4a4a;
+  --main-theme-color: #27ae60;
 
   /* font-size */
-  /* --lg-head-font-size: 2.5em;
-  --lg-font-size: 2.6rem;
+  --lg-head-font-size: 2.5em;
+  --lg-font-size: 2rem;
   --md-font-size: 1.5rem;
-  --sm-font-size: 1.1rem; */
+  --sm-font-size: 1.1rem;
 
   /* font-family */
-  /* --heading-font-family: "Raleway", sans-serif;
-  --main-font-family: "Montserrat", sans-serif;
-  --sec-font-family: "Roboto Mono", monospace; */
+  --main-font-family: "Roboto Mono", sans-serif;
+  --sec-font-family: "Roboto Mono", monospace;
 }
 
 /* declaration of global variables ends */
@@ -35,22 +36,108 @@
 /* ********************************************************** */
 /* root css styling starts */
 
-
-
 /* root css styling ends */
 /* ********************************************************** */
 
-
-a, p, span {
+a {
   color: var(--main-font-color);
 }
 
 a:hover {
   color: var(--main-font-color);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* ********************************************************** */
 /* Main styling starts */
+
+.main-sec-div {
+  background-color: var(--light-bg-color);
+  padding: 20px 10px;
+}
+
+.main-sec-div {
+  color: var(--sec-font-color);
+}
+
+.sec-head,
+.sec-content {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.sec-content {
+  padding: 30px 10px;
+}
+
+.sec-head h1 {
+  position: relative;
+  font-family: var(--main-font-family);
+  font-size: var(--lg-head-font-size);
+  font-weight: 600;
+  width: fit-content;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.sec-head h1::after {
+  content: "";
+  background-color: var(--main-theme-color);
+  position: absolute;
+  height: 4px;
+  right: 41%;
+  bottom: 0px;
+  width: 50px;
+}
+
+.card-div {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-head h3 {
+  position: relative;
+  font-family: var(--main-font-family);
+}
+
+.card-head h3::after {
+  content: "";
+  background-color: var(--main-theme-color);
+  position: absolute;
+  height: 3px;
+  right: 41%;
+  bottom: -8px;
+  width: 50px;
+}
+
+.card-desc {
+  font-size: var(--sm-font-size);
+}
+
+.card-desc .btn a {
+  color: var(--main-theme-color);
+}
+
+.card-desc .btn {
+  border: 2px solid var(--main-theme-color);
+  border-radius: 20px;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+}
+
+.card-desc .btn:hover {
+  background-color: var(--main-theme-color);
+}
+
+.card-desc .btn:hover a{
+  color: var(--main-font-color);
+  text-decoration: none;
+}
 
 
 /* Main styling ends */
@@ -73,17 +160,14 @@ a:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
 }
 
 /********** Large Mobile devices only **********/
 @media (max-width: 450px) {
-
 }
 
 /********** Medium Mobile devices only **********/

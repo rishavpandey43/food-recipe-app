@@ -49,24 +49,24 @@ class Header extends Component {
                     aria-labelledby="navbarDropdown"
                   >
                     <span className="dropdown-item nav-link">
-                      <Link to="">Recipe Search</Link>
+                      <Link to="/recipe-search">Recipe Search</Link>
                     </span>
                     <span className="dropdown-item nav-link">
-                      <Link to="">Food Database</Link>
+                      <Link to="/food-database">Food Database</Link>
                     </span>
                     <span className="dropdown-item nav-link">
-                      <Link to="">Nutrition Analysis</Link>
+                      <Link to="/nutrition-analysis">Nutrition Analysis</Link>
                     </span>
                   </div>
                 </li>
                 <li className="nav-item">
                   <span className="nav-link">
-                    <Link to="">About</Link>
+                    <Link to="/about">About</Link>
                   </span>
                 </li>
                 <li className="nav-item">
                   <span className="nav-link">
-                    <Link to="">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </span>
                 </li>
               </ul>

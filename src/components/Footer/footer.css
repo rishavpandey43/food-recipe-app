@@ -1,6 +1,14 @@
+.footer * {
+  color: var(--main-font-color);
+}
+
 .footer {
   background-color: var(--dark-bg-color);
   text-align: center;
+}
+
+.footer .main-content {
+  padding: 40px 0px;
 }
 
 .footer-col-1,
@@ -27,9 +35,8 @@
 
 .end-footer {
   background-color: var(--footer-dark-bg-color);
-  padding: 15px;
+  padding: 20px 10px;
   text-align: center;
-  color: var(--main-font-color);
   font-family: var(--main-font-family);
   font-size: 1.2em;
 }
@@ -44,4 +51,5 @@
 
 .copyright {
   font-family: var(--main-font-family);
+  margin: 0px;
 }

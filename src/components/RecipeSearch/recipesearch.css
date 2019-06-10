@@ -1,0 +1,6 @@
+.recipe-search-comp .sec-head h1::after {
+  height: 4px;
+  right: 46%;
+  bottom: 0px;
+  width: 50px;
+}

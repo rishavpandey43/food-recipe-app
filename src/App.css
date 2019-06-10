@@ -44,8 +44,8 @@ a {
 }
 
 a:hover {
-  color: var(--main-font-color);
-  text-decoration: none;
+  color: var(--main-font-color) !important;
+  text-decoration: none !important;
 }
 
 .btn:focus {
@@ -66,11 +66,13 @@ a:hover {
 }
 
 .sec-head,
+.sec-desc,
 .sec-content {
   margin: 20px 10px;
   text-align: center;
 }
 
+.sec-desc,
 .sec-content {
   padding: 30px 10px;
 }
@@ -93,6 +95,12 @@ a:hover {
   right: 41%;
   bottom: 0px;
   width: 50px;
+}
+
+.sec-desc {
+  width: 60%;
+  margin: 20px auto;
+  font-size: var(--sm-font-size);
 }
 
 .card-div {
@@ -134,11 +142,10 @@ a:hover {
   background-color: var(--main-theme-color);
 }
 
-.card-desc .btn:hover a{
+.card-desc .btn:hover a {
   color: var(--main-font-color);
   text-decoration: none;
 }
-
 
 /* Main styling ends */
 /* ********************************************************** */
@@ -160,18 +167,36 @@ a:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .card-head h3::after {
+    right: 35%;
+  }
+  .sec-desc {
+    width: 80%;
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .card-head h3::after {
+    right: 43.5%;
+  }
+  .sec-desc {
+    width: 90%;
+  }
 }
 
 /********** Large Mobile devices only **********/
 @media (max-width: 450px) {
+  .card-head h3::after {
+    right: 42%;
+  }
 }
 
 /********** Medium Mobile devices only **********/
 @media (max-width: 380px) {
+  .card-head h3::after {
+    right: 40%;
+  }
 }
 
 /********** small Mobile devices only (eg: Iphone 4, ) **********/

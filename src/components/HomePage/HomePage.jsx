@@ -6,21 +6,21 @@ import { Link } from "react-router-dom";
 class HomePage extends Component {
   render() {
     return (
-      <main>
+      <main className="homepage-comp">
         <section className="main-sec-div sec-1">
           <div className="container">
             <div className="sec-content">
               <div className="row">
-                <div className="col-12 col-sm-6">
+                <div className="col-12 col-sm-12 col-md-6">
                   <div className="explore-btn">
                     <button className="btn">
                       <span>Explore Me</span>
-                      &nbsp;&nbsp;
+                      &nbsp;
                       <i className="fas fa-angle-down" />
                     </button>
                   </div>
                 </div>
-                <div className="col-12 col-sm-6">
+                <div className="col-12 col-sm-12 col-md-6">
                   <div className="">
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -46,7 +46,7 @@ class HomePage extends Component {
             </div>
             <div className="sec-content">
               <div className="row">
-                <div className="col-12 col-sm-4">
+                <div className="col-12 col-sm-12 col-md-4">
                   <div className="card-div">
                     <div className="card-icon pt-2 pb-2">
                       <i className="fas fa-utensils fa-2x" />
@@ -65,7 +65,7 @@ class HomePage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-sm-4">
+                <div className="col-12 col-sm-12 col-md-4">
                   <div className="card-div">
                     <div className="card-icon pt-2 pb-2">
                       <i className="fas fa-database fa-2x" />
@@ -84,7 +84,7 @@ class HomePage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-sm-4">
+                <div className="col-12 col-sm-12 col-md-4">
                   <div className="card-div">
                     <div className="card-icon pt-2 pb-2">
                       <i className="fas fa-user-nurse fa-2x" />

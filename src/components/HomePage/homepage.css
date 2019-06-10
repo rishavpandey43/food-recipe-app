@@ -1,14 +1,9 @@
-.sec-1 {
-  /* background: linear-gradient(270deg, #27AE60 0.73%, rgba(242, 242, 242, 0) 100%); */
-}
-
-
 .sec-1 .sec-content p {
   font-size: var(--md-font-size);
 }
 
 .explore-btn {
-  width: 300px;
+  min-width: 200px;
   margin: auto;
   margin-top: 150px;
 }
@@ -18,10 +13,59 @@
 }
 
 .explore-btn .btn {
-  padding: 10px 30px;
+  padding: 10px 20px;
   font-size: var(--md-font-size);
   font-family: var(--main-font-family);
   color: var(--main-theme-color);
   border: 2px solid var(--main-theme-color);
   border-radius: 30px;
 }
+
+/* Responsive view styling starts */
+
+/***###*** MEDIA QUERIES ***###***/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .homepage-comp .sec-1 .row {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .explore-btn {
+    margin-top: 80px;
+  }
+}
+
+/********** Large Mobile devices only **********/
+@media (max-width: 450px) {
+}
+
+/********** Medium Mobile devices only **********/
+@media (max-width: 380px) {
+}
+
+/********** small Mobile devices only (eg: Iphone 4, ) **********/
+@media (max-width: 330px) {
+  .explore-btn {
+    min-width: 180px;
+  }
+
+  .explore-btn .btn {
+    padding: 5px 6px;
+  }
+}
+
+/* Responsive view styling ends */
+/* ********************************************************** */

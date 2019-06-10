@@ -52,6 +52,7 @@ header * {
 @media (max-width: 767px) {
   .dropdown-menu {
     border: none;
+    outline: none;
   }
 
 }

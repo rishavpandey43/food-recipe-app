@@ -21,7 +21,7 @@ class HomePage extends Component {
                   </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6">
-                  <div className="">
+                  <div className="sec-content">
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the

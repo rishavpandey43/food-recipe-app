@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/food-recipe-app/static/css/main.378c861b.chunk.css",
-    "main.js": "/food-recipe-app/static/js/main.36713e0b.chunk.js",
-    "main.js.map": "/food-recipe-app/static/js/main.36713e0b.chunk.js.map",
+    "main.css": "/food-recipe-app/static/css/main.64aa32b3.chunk.css",
+    "main.js": "/food-recipe-app/static/js/main.89f5497d.chunk.js",
+    "main.js.map": "/food-recipe-app/static/js/main.89f5497d.chunk.js.map",
     "runtime~main.js": "/food-recipe-app/static/js/runtime~main.5a780165.js",
     "runtime~main.js.map": "/food-recipe-app/static/js/runtime~main.5a780165.js.map",
     "static/css/2.266e55a5.chunk.css": "/food-recipe-app/static/css/2.266e55a5.chunk.css",
     "static/js/2.840088ba.chunk.js": "/food-recipe-app/static/js/2.840088ba.chunk.js",
     "static/js/2.840088ba.chunk.js.map": "/food-recipe-app/static/js/2.840088ba.chunk.js.map",
     "index.html": "/food-recipe-app/index.html",
-    "precache-manifest.a42b431a1373ab8c6c08d7270aa6570a.js": "/food-recipe-app/precache-manifest.a42b431a1373ab8c6c08d7270aa6570a.js",
+    "precache-manifest.80424e21e7ac31b054c69e82ca4aee3f.js": "/food-recipe-app/precache-manifest.80424e21e7ac31b054c69e82ca4aee3f.js",
     "service-worker.js": "/food-recipe-app/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/food-recipe-app/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.378c861b.chunk.css.map": "/food-recipe-app/static/css/main.378c861b.chunk.css.map",
+    "static/css/main.64aa32b3.chunk.css.map": "/food-recipe-app/static/css/main.64aa32b3.chunk.css.map",
     "static/media/under-512.png": "/food-recipe-app/static/media/under-512.fd5013a8.png"
   }
 }

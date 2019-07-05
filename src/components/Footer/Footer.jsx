@@ -9,7 +9,7 @@ class Footer extends Component {
           <div className="container">
             <p className="copyright">
               <span>
-                Maintained and Developed by{" "}
+                Maintained and Developed by&nbsp;
                 <em>
                   <a
                     href="https://rishavpandey.com"
@@ -22,6 +22,11 @@ class Footer extends Component {
               </span>
               <br />
               <span>© 2019. All rights reserved.</span>
+              <br />
+              <span>
+                The website is currently under development, more new features
+                will be added soon.
+              </span>
             </p>
           </div>
         </div>

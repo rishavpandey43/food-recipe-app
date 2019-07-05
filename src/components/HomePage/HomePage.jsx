@@ -23,15 +23,7 @@ class HomePage extends Component {
                 <div className="col-12 col-sm-12 col-md-6">
                   <div className="sec-content">
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the
-                      industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book. It has
-                      survived not only five centuries, but also the leap
-                      into electronic typesetting, remaining essentially
-                      unchanged. It was popularised in the 1960s with the
-                      release of Letraset sheets containing Lorem
+                      This Web App uses Edamam API services. We've currently several features like Recipe Search, Food Database, Nutrition Analysis. Soon, the web app will be powered with more new features like personalized recipe prediction based on your search and recommended healthy recipe. Currently we've limited search result for every search due to API restriction usage, soon it'll be increased on.
                     </p>
                   </div>
                 </div>
@@ -42,7 +34,7 @@ class HomePage extends Component {
         <section className="main-sec-div">
           <div className="container">
             <div className="sec-head">
-              <h1>Our Services</h1>
+              <h1>Services</h1>
             </div>
             <div className="sec-content">
               <div className="row">

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+import UnderConstruction from "../UnderConstruction/UnderConstruction";
 
 class FoodDatabase extends Component {
   render() {
-    return(
+    return (
       <main>
+        <UnderConstruction />
       </main>
-    )
+    );
   }
 }
 
